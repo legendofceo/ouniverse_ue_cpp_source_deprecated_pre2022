@@ -1,0 +1,9 @@
+Files were too large to upload to github, are stored on hard drive
+
+#USE the VISUAL SOURCE INSTALLATION THING IN THIS FOLDER, run from one of the command prompt options in Visual Studio Folfder in the  Windows App List. Developer PowerShell from inside MVS might also work Run these:  If rm doesn't work just skip to last step
+MVS will need to "warm up" click the icon bottom left corner to see that it's scanning, once this is complete you will be able to compile
+
+cl /MD /O2 /c /DLUA_BUILD_AS_DLL /DLUA_COMPAT_5_2 *.c
+rm lua.obj
+rm luac.obj
+lib /OUT:liblua54_win64.lib *.obj
