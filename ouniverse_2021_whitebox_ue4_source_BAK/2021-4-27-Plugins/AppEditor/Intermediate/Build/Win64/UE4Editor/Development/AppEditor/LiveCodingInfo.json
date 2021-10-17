@@ -1,0 +1,26 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.AppEditor.cpp.obj": [
+			"AppEditor.cpp.obj",
+			"BuildDefaults.cpp.obj",
+			"CompanionEditor.cpp.obj",
+			"LogicEditor.cpp.obj",
+			"LogPP.cpp.obj",
+			"MapEditor.cpp.obj",
+			"MemEditor.cpp.obj",
+			"Preprocessor.cpp.obj"
+		],
+		"Module.AppEditor.gen.cpp.obj": [
+			"AppEditor.init.gen.cpp.obj",
+			"BuildDefaults.gen.cpp.obj",
+			"CompanionEditor.gen.cpp.obj",
+			"EditorEnums.gen.cpp.obj",
+			"LogicEditor.gen.cpp.obj",
+			"LogPP.gen.cpp.obj",
+			"MapEditor.gen.cpp.obj",
+			"MemEditor.gen.cpp.obj",
+			"Preprocessor.gen.cpp.obj"
+		]
+	}
+}

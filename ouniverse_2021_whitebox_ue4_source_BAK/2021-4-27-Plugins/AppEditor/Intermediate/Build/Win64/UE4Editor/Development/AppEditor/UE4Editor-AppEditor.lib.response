@@ -1,0 +1,14 @@
+/NOLOGO
+/errorReport:prompt
+/MACHINE:x64
+/SUBSYSTEM:WINDOWS
+/DEF
+/NAME:"UE4Editor-AppEditor.dll"
+/IGNORE:4221
+/NODEFAULTLIB
+"O:\sword\unreal\App\Intermediate\Build\Win64\AppEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h.obj"
+"O:\sword\unreal\App\Plugins\AppEditor\Intermediate\Build\Win64\UE4Editor\Development\AppEditor\Module.AppEditor.cpp.obj"
+"O:\sword\unreal\App\Plugins\AppEditor\Intermediate\Build\Win64\UE4Editor\Development\AppEditor\Module.AppEditor.gen.cpp.obj"
+"O:\sword\unreal\App\Plugins\AppEditor\Intermediate\Build\Win64\UE4Editor\Development\AppEditor\Default.rc2.res"
+/OUT:"O:\sword\unreal\App\Plugins\AppEditor\Intermediate\Build\Win64\UE4Editor\Development\AppEditor\UE4Editor-AppEditor.lib"
+/INCLUDE:IMPLEMENT_MODULE_AppEditor
